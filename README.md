@@ -1,0 +1,2 @@
+# server-beautyJoseon
+aws server
