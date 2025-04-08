@@ -33,7 +33,7 @@ export const snsLoginCallback = async(req, res) =>{
           params: {
             grant_type: 'authorization_code',
             client_id: '3f5c49e05800584ba496c54e74152ab3',
-            redirect_uri: 'http://localhost:3000/signup/redirect/kakao',
+            redirect_uri: 'http://beauty-client.s3-website.ap-northeast-2.amazonaws.com/signup/redirect/kakao',
             code,
           },
           headers: {
